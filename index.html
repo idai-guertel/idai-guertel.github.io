@@ -1,0 +1,277 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.page {
+  box-sizing: border-box;
+  width: 21cm;
+  height: 29.7cm;
+  background-color: #EEEEEA;
+  margin: 50px auto;
+  padding: 50px;
+  position: relative;
+}
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:  space-between;
+}
+.top img {
+  width: 5cm;
+  height: 5cm;
+  border-radius: 50%;
+  box-shadow: 0px 1px 8px 1px rgba(1, 1, 0, 0.5);
+  filter: invert(12%);
+}
+.top::after{
+  height: 2em;
+  flex-basis: 52%;
+  content: "Full Stack Developer";
+  text-transform: uppercase;
+  background-color: #EEEEEA;
+  box-shadow: -20px 0px 0px 0 #EEEEEA;
+  z-index: 1;
+}
+h1 {
+  align-self: flex-end;
+  font-size: 3.5em;
+  margin: 0;
+  border-top: solid 4px orange;
+  z-index: 1;
+}
+h1 span{
+  background-color: #EEEEEA;
+  box-shadow: 0px -12px 0px 0px #EEEEEA;
+
+}
+    .top::after {
+        font-size: 1.8em;
+    }
+.h3 {
+  font-size: 1.8em;
+}
+.education dl, .experience dl{
+  padding: 5px;
+  box-sizing: content-box;
+  border: solid 1px #EEEEEA;
+  box-shadow: 0px 0px 0px 10px  #EEEEEA, -12px 0px 0px 0 black;
+}
+.education dt, .experience dt{
+  font-size: 1.1em;
+  box-sizing: content-box;
+  border: solid 1px #EEEEEA;
+  padding: 5px;
+  box-shadow: 0px 0px 0px 9px  #EEEEEA, -12px 0px 0px 0 orange;
+}
+.education dd, .experience dd{
+    margin-bottom: 30px;
+}
+dd {
+  padding: 5px;
+}
+.contact dl {
+  width: 100%;
+}
+.contact dl dt {
+  width: 10%;    
+  padding: 5px;
+  display: inline-block;
+}
+.contact dl dd {    
+  margin: 0px;
+  display: inline;
+}
+.contact dl dd::after {
+  content: '';
+  display: block;
+}
+.h_line_1 {
+  width:  21cm;
+  position: relative;
+  left: -50px;
+  top: -3.13em;
+  float: left;
+}
+.h_line_2 {
+  width: 29.7cm;
+  position: absolute;
+  top: -8px;
+  left: 37%;
+  transform-origin: 0% 0%;
+  transform: rotate(90deg);
+}
+.h_line_3 {
+  width:  21cm;
+  position: relative;
+  top: -150px;
+  left: -50px;
+  float: left;
+}
+.h_line_4 {
+  z-index: 1;
+  width: 29.7cm;
+  position: absolute;
+  top: -8px;
+  left: 63%;
+  transform-origin: 0% 0%;
+  transform: rotate(90deg);
+}
+.left {
+  width: 30%;
+  float: left;
+}
+.right {
+    width: 55%;
+    float: right;
+}
+.left > div, .right > div {
+  margin-bottom: 29px;
+}
+.languages {
+  background-color: orange;
+}
+.profile dl {
+  z-index: 10;
+  position: relative;
+  background-color: #EEEEEA;
+  box-shadow: -20px 20px 0px 0 #EEEEEA;
+}
+.profile dt {
+  padding-top: 30px;
+  font-size: 1.1em;
+}
+.profile dt::before {
+  content: "✘ ";
+  font-size: 1.1em;
+  color: orange;
+  font-weight: bolder;
+}
+.profile dd {
+    position: relative;
+    z-index: 1;
+    background-color: #EEEEEA;
+    padding: 10px 0px;
+    border-bottom: solid 1px orange;
+    width: 70%;
+}
+.profile dd[l]::after {
+  float: right;
+  width: 45%;
+  content: attr(l);
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="top">
+  <h1>IDAI<br><span>GUERTEL</span></h1>
+  <img src="../IMG_20170929_115906-3.jpg">
+</div>
+
+<hr class="h_line_1">
+<hr class="h_line_2">
+
+<div class="left">
+
+<div class="contact">
+<div class="h3">CONTACT</div>
+  <dl><dd></dd><dt><i class="fa fa-map-marker"></i></dt>
+  <dd>Berlin, Germany</dd>
+  <dt><i class="fa fa-phone"></i></dt>
+  <dd>+49 176 81661859</dd>
+  <dt><i class="fa fa-envelope"></i></dt>
+  <dd>idai.guertel@gmail.com</dd>
+<!--  <dt><i class="fa fa-linkedin"></i></dt>-->
+<!--  <dd>linkedin.com/in/id-gu</dd></dl>-->
+    </dl>
+</div>
+
+<div class="info">
+<div class="h3">INFO</div>
+<p style="line-height: 1.3em; font-size: 1.1em;">
+   Experienced and devoted web developer with focus on E-Commerce businesses and restaurants.</div>
+
+
+
+<div class="education">
+  <div class="h3">EDUCATION</div>
+  <dl><dt>B.Sc Physics and Cognitive Science</dt>
+  <dd>Hebrew University<br>Jerusalem, Israel<br>2010 - 2013</dd>
+  <dt>M.Sc Computational Neuroscience</dt>
+  <dd>Bernstein Center,<br>Technical University<br>Berlin, Germany<br>2013 - 2017</dd>
+  </dl>
+</div>
+
+</div><div class="right">
+            
+<div class="experience">
+<div style="margin-bottom: 50px" class="h3">PROJECTS</div>
+  <dl><dt>Magic John's e.K. - API Integration</dt>
+  <dd>magicjohns.com<br>
+      26 weeks<br>
+      <i>REST API integration of ordering website, delivery service, POS system, and kitchen printers.
+      </i></dd>
+  <dt>Luizzo GmbH - Shopify Front End</dt>
+  <dd>luizzo.de<br>
+      2 weeks<br>
+      <i>Customizing theme and functionality using Front End code and Liquid template language, working hand-in-hand with a graphic designer.
+      </i></dd>
+      <dt>Small Bubbles GmbH - Full Stack</dt>
+  <dd>crackbuns.com<br>
+      8 weeks<br>
+      <i>Wix website development including Front End, CRM, SEO, and Database management.
+      </i></dd>
+  <dt>Yummy Vintage - Shopify Front End</dt>
+  <dd>yummyvintage.com<br>
+      2 weeks<br>
+      <i>Theme customization according to designer requests. Additional Apps managment and Platform support.
+      </i></dd>
+  </dl>
+</div>
+    
+</div>
+
+</div><div class="page">    
+<div class="profile" style="display: flex; flex-wrap: wrap;">
+<div class="h3" style="flex: 100%">PROFILE</div>
+  <dl style="flex: 50%"><dt>Front End</dt>
+  <dd l="⚫ ⚫ ⚫ ⚫">HTML 5</dd>
+  <dd l="⚫ ⚫ ⚫ ⚫">CSS</dd>
+  <dd l="⚫ ⚫ ⚫ ⚫">Javascript</dd>
+  <dd l="⚫ ⚫ ⚫ ⚫">Bootstrap</dd>
+  <dd l="⚫ ⚫ ⚫">React</dd>
+  <dd l="⚫ ⚫ ⚫">Angular</dd>
+  <dd l="⚫ ⚫">Vue</dd>
+  <dt>Back End</dt>
+  <dd l="⚫ ⚫ ⚫ ⚫">PHP</dd>
+  <dd l="⚫ ⚫ ⚫ ⚫">Node.js</dd>
+  <dd l="⚫ ⚫ ▶">Ruby</dd>
+  <dd l="⚫ ⚫">ASP.NET</dd>
+     <dt>Server</dt>
+  <dd l="⚫ ⚫ ⚫ ⚫">Flask</dd>
+  <dd l="⚫ ⚫ ⚫ ⚫">Jenkins</dd>
+  <dd l="⚫ ⚫ ⚫">AWS</dd>
+    </dl><dl style="flex: 50%">
+  <dt>Platforms</dt>
+  <dd l="⚫ ⚫ ⚫ ⚫">Shopify</dd>
+  <dd l="⚫ ⚫ ⚫ ⚫">Wix</dd>
+  <dd l="⚫ ⚫ ⚫ ⚫">WooCommerce</dd>
+  <dt>Programming Languages</dt>
+  <dd l="⚫ ⚫ ⚫ ⚫">Python</dd>
+  <dd l="⚫ ⚫ ⚫">C#</dd>
+  <dd l="⚫ ⚫ ⚫">C++</dd>
+  <dd l="⚫ ⚫ ⚫">Java</dd>
+  </dl>
+</div>
+<hr class="h_line_3">
+<hr class="h_line_4">
+
+</div>
+</body>
+</html>
