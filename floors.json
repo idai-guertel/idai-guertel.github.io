@@ -1,4 +1,4 @@
-{
+floorsJson = {
   floors: [
     {
       name: "Garten",
@@ -43,4 +43,4 @@
       ]
     }
   ]
-}
+};
