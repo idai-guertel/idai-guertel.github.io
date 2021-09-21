@@ -2,6 +2,8 @@ floorsJson = {
   floors: [
     {
       name: "Garten",
+      lat: 52.511065,
+      lon: 13.442943,
       lineup: [
         {
           name: "Freddy K",
@@ -23,6 +25,8 @@ floorsJson = {
     },
     {
       name: "Garten2",
+      lat: 52.561065,
+      lon: 13.492943,
       lineup: [
         {
           name: "Freddy K",
