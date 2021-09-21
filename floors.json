@@ -1,4 +1,4 @@
-let floorsJson = {
+floorsJson = {
   floors: [
     {
       name: "Garten",
