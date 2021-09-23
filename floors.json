@@ -1,48 +1,52 @@
 floorsJson = {
   floors: [
     {
-      name: "Garten",
-      lat: 52.511065,
-      lng: 13.442943,
+      name: "Anomalie: ROOM 1",
+      lat: 52.535285,
+      lng: 13.452908,
       lineup: [
         {
-          name: "Freddy K",
-          time: "NOW"
+          name: "Rebekah",
+          time: ""
         },
         {
-          name: "Marie Montexier",
-          time: "16:00"
+          name: "Setaoc Mass",
+          time: ""
         },
         {
-          name: "MCR-T",
-          time: "18:00"
+          name: "KØZLØV",
+          time: ""
         },
         {
-          name: "Roi Perez",
-          time: "20:00"
+          name: "CARAVEL",
+          time: ""
+        },
+        {
+          name: "Nick Moody",
+          time: ""
         }
       ]
     },
     {
-      name: "Garten2",
-      lat: 52.561065,
-      lng: 13.492943,
+      name: "Anomalie: ROOM 2",
+      lat: 52.535438,
+      lng: 13.453315,
       lineup: [
         {
-          name: "Freddy K",
-          time: "NOW"
+          name: "T-Rail",
+          time: ""
         },
         {
-          name: "Marie Montexier",
-          time: "16:00"
+          name: "Nothing Left",
+          time: ""
         },
         {
-          name: "MCR-T",
-          time: "18:00"
+          name: "Dj Speed",
+          time: ""
         },
         {
-          name: "Roi Perez",
-          time: "20:00"
+          name: "Dj Frequency",
+          time: ""
         }
       ]
     }
